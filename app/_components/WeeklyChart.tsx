@@ -43,7 +43,6 @@ export function ChartExample() {
           right: 12,
           top: 12,
         }}
-        stackOffset="expand"
       >
         <CartesianGrid vertical={false} />
         <XAxis
