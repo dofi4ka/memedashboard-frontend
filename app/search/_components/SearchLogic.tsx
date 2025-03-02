@@ -132,7 +132,9 @@ export function SearchLogic() {
         Поиск мемов
       </h1>
 
-      <SearchInput query={query} setQuery={setQuery} />
+      <div className="mb-8">
+        <SearchInput query={query} setQuery={setQuery} />
+      </div>
 
       <SearchResults
         results={results}
