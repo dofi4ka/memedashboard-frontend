@@ -32,7 +32,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function ChartExample() {
+export default function ExampleChart() {
   return (
     <ChartContainer config={chartConfig}>
       <AreaChart

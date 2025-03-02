@@ -14,8 +14,8 @@ import { usePathname } from "next/navigation";
 
 const navigationLinks = [
   { href: "/", label: "Главная" },
-  { href: "/analytics", label: "Аналитика" },
-  { href: "/trends", label: "Тренды" },
+  { href: "/stats", label: "Аналитика" },
+  { href: "/search", label: "Поиск" },
   { href: "/about", label: "О проекте" },
 ];
 
