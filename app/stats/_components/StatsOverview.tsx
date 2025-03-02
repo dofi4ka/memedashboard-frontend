@@ -89,9 +89,7 @@ export function StatsOverview({
       </Card>
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">
-            Среднее в неделю
-          </CardTitle>
+          <CardTitle className="text-sm font-medium">Мемов в неделю</CardTitle>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -108,7 +106,7 @@ export function StatsOverview({
         <CardContent>
           <div className="text-2xl font-bold">{averageMemesPerWeek}</div>
           <p className="text-xs text-muted-foreground">
-            Среднее количество мемов в неделю
+            Сколько мемов в неделю отслеживается
           </p>
         </CardContent>
       </Card>
