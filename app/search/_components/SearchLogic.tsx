@@ -46,7 +46,7 @@ export function SearchLogic() {
       }
 
       const now = Date.now();
-      if (now - lastFetchTimeRef.current < 1000) {
+      if (now - lastFetchTimeRef.current < 300) {
         return;
       }
 
