@@ -150,7 +150,7 @@ export default function StatsPage() {
     return Math.max(max, weekTotal);
   }, 0);
 
-  const yAxisDomain: [number, number] = [0, Math.ceil(maxWeeklyTotal * 1.1)];
+  const yAxisDomain: [number, number] = [0, Math.ceil(maxWeeklyTotal * 0.7)];
 
   const totalMemes = Object.values(topicTotals).reduce(
     (sum, count) => sum + count,
